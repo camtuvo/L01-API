@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CDCDCD"
+    tools:context=".MainActivity">
+    <TextView
+        android:text="MATH"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#6200ED"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rclMathList"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <Button
+        android:id="@+id/btnMAth"
+        android:text="Nộp bài"
+        android:background="#6200ED"
+        app:backgroundTint="@null"
+        android:layout_margin="10dp"
+        android:layout_weight="0.75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>
